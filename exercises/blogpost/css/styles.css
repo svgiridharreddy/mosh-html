@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+.content{
+  margin: 2rem auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+h2, h3 {
+  margin: 3rem 0 1rem;
+}
+
+h1 {
+  font-size: 4.209rem;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 3.157rem; 
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  font-family: 'PT Serif', 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+ul li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+
+@media screen and (min-width: 1140px){
+  .container{
+    margin: 7rem;
+  }
+}
+

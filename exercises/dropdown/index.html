@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Drop Down</title>
+</head>
+<body>
+    <nav class="dropdown">
+      <label for="btn" class="button">
+        Drop Down
+        <span class="fa fa-caret-down"></span>
+      </label>
+      <input type="checkbox" id="btn" class="checkbox">
+      <ul class="menu-items">
+        <li class="item">Home</li>
+        <li class="item">
+          <label for="btn-2" class="first">Features<span class="fa fa-caret-down"></span></label>
+          <input type="checkbox" id="btn-2" class="checkbox">
+          <ul class="sub-menu-items">
+            <li class="sub-menu-item">Feature 1</li>
+            <li class="sub-menu-item">Feature 2</li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <label for="btn-3" class="second">
+            Courses<span class="fa fa-caret-down"></span>
+          </label>
+          <input type="checkbox" id="btn-3" class="checkbox">
+          <ul class="sub-menu-items">
+            <li class="sub-menu-item">Course 1</li>
+            <li class="sub-menu-item">Course 2</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+</body>
+</html>

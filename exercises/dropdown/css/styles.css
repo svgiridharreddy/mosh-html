@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.dropdown {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: none;
+  width: 30rem;
+  line-height: 4rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid blueviolet;
+  border-radius: 2rem;
+}
+
+ .dropdown label {
+  font-size: 2rem;
+  color: black;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button span {
+  float: right;
+  line-height: 4rem;
+}
+
+.dropdown .menu-items, .dropdown .sub-menu-items {
+  position: absolute;
+  list-style: none;
+  top: 7rem;
+  background: none;
+  border: 1px solid blueviolet;
+  width: 100%;
+  left: 0;
+  border-radius: 2rem;
+  display: none;
+}
+
+.dropdown .menu-items .item {
+  line-height: 4rem;
+  color: black;
+  cursor: pointer;
+  padding: 0rem 3rem;
+}
+
+.dropdown .item , .dropdown .sub-menu-item  {
+  color:black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+}
+
+.dropdown .item a:hover,.dropdown .item label:hover {
+  color: #1b1b1b;
+}
+
+.dropdown .sub-menu-items  {
+  position: static;
+  line-height: 3rem;
+  padding-left: 3rem;
+  border: none;
+}
+
+.dropdown .sub-menu-item   {
+  line-height: 3rem;
+  border: none;
+}
+
+.dropdown .item span {
+  line-height: 3rem;
+  float:right;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.dropdown .checkbox {
+  display: none;
+}
+
+[id^=btn]:checked + ul {
+  display: block;
+}
+
+
+/* nav {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: none;
+  width: 30rem;
+  line-height: 4rem;
+  padding: 1rem 2.5rem;
+  border: 1px solid blueviolet;
+  border-radius: 2rem;
+}
+
+nav label {
+  font-size: 2rem;
+  color: black;
+  display: block;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button span {
+  float: right;
+  line-height: 4rem;
+}
+
+nav ul {
+  position: absolute;
+  list-style: none;
+  top: 7rem;
+  background: none;
+  border: 1px solid blueviolet;
+  width: 100%;
+  left: 0;
+  border-radius: 2rem;
+  display: none;
+}
+
+nav ul li {
+  line-height: 4rem;
+  color: black;
+  cursor: pointer;
+  padding: 0rem 3rem;
+}
+
+nav ul li a {
+  color:black;
+  text-decoration: none;
+  font-size: 2rem;
+  display: block;
+}
+
+nav ul li a:hover,nav ul li label:hover {
+  color: #1b1b1b;
+}
+
+.menu ul {
+  position: static;
+}
+
+.menu ul  {
+  line-height: 3rem;
+  padding-left: 3rem;
+  border: none;
+}
+
+.menu ul li   {
+  line-height: 3rem;
+  border: none;
+}
+
+.menu li span {
+  line-height: 3rem;
+  float:right;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+input {
+  display: none;
+}
+[id^=btn]:checked + ul {
+  display: block;
+} */
